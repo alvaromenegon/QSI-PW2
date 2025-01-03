@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+    <testsuite name="pytest" errors="0" failures="0" skipped="0" tests="10" time="0.097"
+        timestamp="2025-01-03T16:50:28.981997+00:00" hostname="Menegon">
+        <testcase classname="test_app" name="test_create_list" time="0.001" />
+        <testcase classname="test_app" name="test_add_item" time="0.002" />
+        <testcase classname="test_app" name="test_add_item_invalid_characters" time="0.002" />
+        <testcase classname="test_app" name="test_add_item_invalid_type" time="0.001" />
+        <testcase classname="test_app" name="test_get_items" time="0.001" />
+        <testcase classname="test_app" name="test_remove_item" time="0.001" />
+        <testcase classname="test_app" name="test_remove_item_not_in_list" time="0.002" />
+        <testcase classname="test_app" name="test_edit_item" time="0.002" />
+        <testcase classname="test_app" name="test_edit_item_not_in_list" time="0.002" />
+        <testcase classname="test_app" name="test_clear" time="0.001" />
+    </testsuite>
+</testsuites>
