@@ -31,21 +31,3 @@ class ShoppingList:
 
     def clear(self):
         self.items = []
-    
-def create_list() -> ShoppingList:
-    return ShoppingList()
-
-def add_item(shopping_list: ShoppingList, item: str):
-    shopping_list.add_item(item)
-
-def get_items(shopping_list: ShoppingList):
-    return shopping_list.get_items()
-
-def remove_item(shopping_list: ShoppingList, item: str):
-    shopping_list.remove_item(item)
-
-def edit_item(shopping_list: ShoppingList, item: str, new_item: str):
-    shopping_list.edit_item(item, new_item)
-
-def clear(shopping_list: ShoppingList):
-    shopping_list.clear()
